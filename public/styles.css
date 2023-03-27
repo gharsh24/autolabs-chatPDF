@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  background-color: aqua;
+  display: flex;
+}
+
+.left {
+  background: rgb(171, 212, 251);
+  background: linear-gradient(
+    0deg,
+    rgba(171, 212, 251, 1) 0%,
+    rgba(102, 149, 240, 1) 100%
+  );
+  width: 18vw;
+  height: 100vh;
+  padding-top: 3%;
+  color: white;
+}
+
+.add-button {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.list-items {
+  border: 1.5px dashed white;
+  padding: 3%;
+  width: 16.7vw;
+  text-align: center;
+}
+.list-items li {
+  list-style-type: none;
+}
+
+.right {
+  background-image: linear-gradient(
+    to right top,
+    #4aa4d7,
+    #69a9d8,
+    #80aed8,
+    #94b4d8,
+    #a5bad7,
+    #abbad6,
+    #b1b9d5,
+    #b7b9d4,
+    #b9b0d0,
+    #bea7ca,
+    #c49ec0,
+    #ca94b3
+  );
+  width: 82vw;
+  text-align: center;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.heading {
+  margin: 6vh 0 0 0;
+  /* text-align: center; */
+}
+
+.browse-container {
+  margin: 5% 0 0 25vw;
+  background-color: white;
+  padding: 1.2%;
+  border-radius: 5%;
+  width: 400px;
+}
+
+.browse {
+  background-color: #efefef;
+  border: 2px dashed lightblue;
+  border-radius: 5%;
+  padding: 5%;
+}
+
+.browse h1 {
+  color: #8bb1fb;
+}
+
+hr {
+  border: 1px dashed darkcyan;
+}
+
+.use-case {
+  width: 100px;
+  height: 250px;
+  background-color: white;
+  padding: 2% 2% 2% 3%;
+  text-align: left;
+  border-radius: 5%;
+  flex: 1;
+  margin: 0 50px;
+}
+
+.use-case-container {
+  margin-top: 5%;
+  display: flex;
+}
+
+.chat-bar {
+  margin-top: 3%;
+  height: 40px;
+}
+
+.query-input textarea {
+  padding: 1.5%;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  resize: none;
+}
